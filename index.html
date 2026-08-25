@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Bloom Loop – Saatgut für deine Saison</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <!-- LINKER BEREICH -->
+
+            <div class="navigation">
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="#angebote"
+                    class="nav-link"
+                >
+                    Angebote
+                </a>
+
+                <a
+                    href="#konto"
+                    class="nav-link"
+                >
+                    Mein Konto
+                </a>
+
+                <a
+                    href="#warenkorb"
+                    class="nav-link cart-link"
+                >
+
+                    Warenkorb
+
+                    <span
+                        class="cart-counter"
+                        id="cartCounter"
+                    >
+                        0
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <!-- LOGO RECHTS -->
+
+            <a
+                href="#home"
+                class="logo-link"
+            >
+
+                <img
+                    src="logo.svg"
+                    alt="Bloom Loop"
+                    class="logo"
+                >
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main id="home">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero">
+
+            <!-- Dekorative Blume -->
+
+        <!-- Dekorative Blumen -->
+
+<div class="hero-flower hero-flower-top">
+    <img
+        src="images/flower-shape.png"
+        alt=""
+        class="hero-flower-image"
+    >
+</div>
+
+
+<div class="hero-flower hero-flower-bottom">
+    <img
+        src="images/flower-shape.png"
+        alt=""
+        class="hero-flower-image"
+    >
+</div>
+
+
+            <!-- Text -->
+
+            <div class="hero-content">
+
+               
+
+              <img
+    src="images/text1.png"
+    alt="Stelle deine Box zusammen."
+    class="hero-title-image"
+>
+
+
+                <p class="hero-description">
+
+                    Wähle deine Lieblingspflanzen
+                    und erhalte passend zur Jahreszeit
+                    neues Saatgut.
+
+                </p>
+
+
+                <a
+                    href="#angebote"
+                    class="main-button"
+                >
+
+                    Box zusammenstellen
+
+                    <span class="arrow">
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 BOX
+            ================================================== -->
+
+            <div class="hero-box">
+
+                <img
+                    src="images/box.png"
+                    alt="Bloom Loop Saatgut Box"
+                    id="boxImage"
+                >
+
+                <!-- Saatgut dekorativ unter der Box -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             KATEGORIEN
+        ================================================== -->
+
+       <section
+    class="categories"
+    id="angebote"
+>
+
+    <div class="category-header">
+
+        <div>
+
+            <p class="eyebrow">
+                KATEGORIEN
+            </p>
+
+            <img
+                src="images/text2.png"
+                alt="Wähle, was du anbauen möchtest."
+                class="section-title-image"
+            >
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         PRODUKTKARTEN
+    ================================================== -->
+
+    <div class="category-grid">
+
+                <!-- BLUMEN -->
+
+                <article
+                    class="category-card card-flower"
+                    data-category="Blumen"
+                >
+
+                    <div class="packet-area">
+
+                        <img
+                            src="images/flower.png"
+                            alt="Blumen Saatgut"
+                            class="seed-packet"
+                        >
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <h3>
+                            Blumen
+                        </h3>
+
+                        <p>
+                            Bunte Vielfalt für
+                            deinen Balkon.
+                        </p>
+
+
+                        <button
+                            class="add-category"
+                            data-category="Blumen"
+                        >
+
+                            <span>
+                                Hinzufügen
+                            </span>
+
+                            <span class="plus">
+                                +
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- KRÄUTER -->
+
+                <article
+                    class="category-card card-herbs"
+                    data-category="Kräuter"
+                >
+
+                    <div class="packet-area">
+
+                        <img
+                            src="images/herps.png"
+                            alt="Kräuter Saatgut"
+                            class="seed-packet"
+                        >
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <h3>
+                            Kräuter
+                        </h3>
+
+                        <p>
+                            Aromatische Kräuter
+                            für Küche und Balkon.
+                        </p>
+
+
+                        <button
+                            class="add-category"
+                            data-category="Kräuter"
+                        >
+
+                            <span>
+                                Hinzufügen
+                            </span>
+
+                            <span class="plus">
+                                +
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+        <!-- GEMÜSE -->
+
+        <article
+            class="category-card card-vegetables"
+            data-category="Gemüse"
+        >
+
+            <div class="packet-area">
+
+                <img
+                    src="images/vegi.png"
+                    alt="Gemüse Saatgut"
+                    class="seed-packet"
+                >
+
+            </div>
+
+            <div class="card-content">
+
+                <h3>
+                    Gemüse
+                </h3>
+
+                <p>
+                    Frisches Gemüse
+                    selber anbauen.
+                </p>
+
+                <button
+                    class="add-category"
+                    data-category="Gemüse"
+                >
+                    <span>
+                        Hinzufügen
+                    </span>
+
+                    <span class="plus">
+                        +
+                    </span>
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- AUSWAHL-BAR -->
+
+    <div class="selection-bar">
+
+        <div class="selection-info">
+
+            <span class="selection-label">
+                DEINE BOX
+            </span>
+
+            <p id="selectionText">
+                Wähle deine Kategorien aus.
+            </p>
+
+        </div>
+
+        <button
+            class="box-button"
+            id="boxButton"
+        >
+            Box erstellen →
+        </button>
+
+    </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+     VORTEILE
+================================================== -->
+
+<!-- =================================================
+     VORTEILE
+================================================== -->
+
+<section class="benefits">
+
+
+    <!-- SAISONAL -->
+
+    <div class="benefit">
+
+        <div class="benefit-icon">
+
+            <!-- Bloom Loop Blume -->
+
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path
+                    d="
+                        M 2.13 1.47
+
+                        C 1.35 2.45, 0.62 3.45, 0.20 4.53
+                        C -0.10 5.45, -0.05 6.60, 0.13 7.60
+                        C 0.30 8.40, 0.62 9.15, 0.93 9.53
+                        C 1.35 10.15, 1.72 10.55, 2.07 10.87
+                        C 2.55 11.32, 3.10 11.65, 3.60 11.87
+
+                        C 3.75 12.00, 3.65 12.18, 3.53 12.20
+                        C 3.15 12.35, 2.78 12.52, 2.53 12.73
+                        C 1.95 13.15, 1.62 13.48, 1.40 13.80
+                        C 0.95 14.45, 0.68 14.90, 0.53 15.20
+                        C 0.28 15.72, 0.13 16.10, 0.13 16.40
+                        C 0.02 16.75, -0.02 17.05, 0.00 17.33
+                        C 0.00 17.95, 0.08 18.58, 0.13 19.13
+                        C 0.25 19.55, 0.34 19.90, 0.47 20.20
+                        C 0.75 20.78, 1.05 21.30, 1.40 21.73
+                        C 1.92 22.35, 2.52 22.85, 3.13 23.20
+                        C 3.65 23.50, 4.15 23.68, 4.60 23.80
+                        C 5.05 23.92, 5.50 23.98, 5.93 24.00
+                        C 6.65 24.02, 7.38 23.90, 8.07 23.73
+                        C 8.60 23.55, 9.10 23.35, 9.53 23.07
+                        C 10.15 22.70, 10.60 22.25, 10.93 21.87
+                        C 11.30 21.42, 11.60 20.90, 11.87 20.40
+
+                        C 12.00 20.38, 12.10 20.42, 12.20 20.47
+                        C 12.40 20.85, 12.58 21.20, 12.80 21.53
+                        C 13.15 22.05, 13.58 22.45, 14.00 22.73
+                        C 14.48 23.10, 14.95 23.35, 15.40 23.53
+                        C 15.80 23.68, 16.15 23.80, 16.47 23.87
+                        C 16.85 23.95, 17.20 23.99, 17.47 24.00
+                        C 18.10 24.00, 18.65 23.95, 19.13 23.87
+                        C 19.60 23.78, 20.00 23.65, 20.33 23.47
+                        C 20.85 23.20, 21.30 22.95, 21.67 22.67
+                        C 22.25 22.18, 22.78 21.50, 23.20 20.87
+                        C 23.50 20.40, 23.68 19.98, 23.73 19.67
+                        C 23.90 19.15, 23.98 18.70, 24.00 18.27
+                        C 24.02 17.60, 23.97 16.95, 23.87 16.40
+                        C 23.72 15.78, 23.48 15.18, 23.20 14.67
+                        C 22.82 14.00, 22.32 13.40, 21.73 12.93
+                        C 21.30 12.60, 20.85 12.30, 20.40 12.07
+
+                        C 20.42 11.95, 20.48 11.82, 20.53 11.73
+                        C 20.92 11.52, 21.30 11.32, 21.60 11.13
+                        C 22.10 10.78, 22.55 10.28, 22.87 9.80
+                        C 23.20 9.35, 23.42 8.92, 23.53 8.60
+                        C 23.75 8.05, 23.88 7.55, 23.93 7.20
+                        C 24.00 6.70, 24.00 6.25, 24.00 5.80
+                        C 23.97 5.28, 23.88 4.78, 23.73 4.33
+                        C 23.58 3.85, 23.38 3.40, 23.13 3.00
+                        C 22.82 2.55, 22.58 2.20, 22.40 2.00
+                        C 21.92 1.48, 21.30 1.02, 20.80 0.73
+                        C 20.40 0.50, 20.05 0.35, 19.73 0.27
+                        C 19.25 0.10, 18.80 0.03, 18.47 0.00
+                        C 17.80 -0.02, 17.18 0.02, 16.60 0.07
+                        C 16.02 0.18, 15.48 0.38, 15.00 0.60
+                        C 14.55 0.82, 14.18 1.08, 13.87 1.33
+                        C 13.48 1.68, 13.15 2.05, 12.87 2.33
+                        C 12.55 2.75, 12.28 3.18, 12.07 3.60
+
+                        C 11.98 3.65, 11.88 3.62, 11.80 3.53
+                        C 11.60 3.10, 11.35 2.68, 11.07 2.27
+                        C 10.78 1.88, 10.45 1.55, 10.13 1.33
+                        C 9.68 1.00, 9.12 0.68, 8.53 0.40
+                        C 8.00 0.20, 7.45 0.05, 6.93 0.00
+                        C 6.20 -0.02, 5.45 0.02, 4.73 0.13
+                        C 4.15 0.25, 3.58 0.48, 3.07 0.80
+                        C 2.70 1.00, 2.40 1.25, 2.13 1.47
+
+                        Z
+                    "
+                    fill="currentColor"
+                />
+            </svg>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Saisonal
+            </h3>
+
+            <p>
+                Passendes Saatgut
+                zur richtigen Zeit.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- NACHHALTIG -->
+
+    <div class="benefit">
+
+        <div class="benefit-icon">
+
+            <!-- Ein einzelnes Blatt -->
+
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path
+                    d="
+                        M 24.00 14.50
+
+                        C 23.70 13.80, 23.40 13.10, 23.10 12.53
+                        C 22.60 11.65, 22.10 10.95, 21.62 10.32
+                        C 20.90 9.40, 20.15 8.60, 19.41 7.95
+                        C 18.90 7.50, 18.45 7.18, 18.02 6.88
+                        C 17.50 6.52, 17.02 6.22, 16.55 5.98
+                        C 15.55 5.52, 14.55 5.18, 13.60 5.00
+                        C 13.20 4.92, 12.90 4.86, 12.61 4.83
+                        C 11.70 4.78, 10.80 4.80, 9.91 4.91
+                        C 9.00 5.03, 8.12 5.32, 7.29 5.82
+                        C 6.72 6.12, 6.20 6.48, 5.73 6.88
+                        C 5.32 7.22, 4.95 7.58, 4.67 7.95
+                        C 4.38 8.30, 4.12 8.67, 3.93 9.01
+                        C 3.62 9.55, 3.40 10.08, 3.28 10.57
+                        C 3.18 10.90, 3.13 11.20, 3.11 11.47
+                        C 3.08 11.98, 3.11 12.48, 3.19 12.94
+
+                        C 4.18 12.52, 5.25 12.10, 6.31 11.63
+                        C 7.55 11.20, 8.82 10.88, 10.08 10.65
+                        C 11.18 10.47, 12.25 10.52, 13.27 10.57
+                        C 13.75 10.63, 14.20 10.72, 14.58 10.81
+                        C 14.88 10.90, 15.13 11.05, 15.32 11.22
+
+                        C 13.90 11.20, 12.55 11.27, 11.22 11.39
+                        C 9.70 11.60, 8.23 12.00, 6.80 12.53
+                        C 6.76 12.58, 6.74 12.64, 6.72 12.70
+                        C 6.05 12.92, 5.45 13.18, 4.91 13.43
+                        C 4.42 13.68, 3.95 13.98, 3.52 14.33
+                        C 2.40 15.42, 1.18 16.60, 0.00 17.77
+                        C -0.02 17.98, -0.02 18.18, 0.00 18.35
+                        C 0.18 18.60, 0.38 18.82, 0.57 19.00
+                        C 0.68 19.10, 0.79 19.15, 0.90 19.17
+                        C 1.02 19.18, 1.13 19.15, 1.23 19.09
+                        C 1.90 18.38, 2.63 17.58, 3.36 16.79
+                        C 3.68 16.55, 3.98 16.33, 4.26 16.14
+                        C 4.56 16.45, 4.83 16.75, 5.08 17.04
+                        C 5.58 17.48, 6.16 17.87, 6.80 18.18
+                        C 7.38 18.45, 7.98 18.62, 8.60 18.68
+                        C 9.40 18.77, 10.16 18.77, 10.89 18.68
+                        C 11.72 18.54, 12.52 18.31, 13.27 18.02
+                        C 13.80 17.78, 14.30 17.50, 14.74 17.20
+                        C 15.65 16.60, 16.50 16.00, 17.28 15.40
+                        C 17.85 15.08, 18.40 14.86, 18.92 14.74
+                        C 19.72 14.54, 20.50 14.40, 21.22 14.33
+                        C 21.65 14.30, 22.05 14.30, 22.44 14.33
+                        C 22.95 14.38, 23.42 14.45, 23.84 14.66
+
+                        C 23.90 14.60, 23.96 14.55, 24.00 14.50
+
+                        Z
+                    "
+                    fill="currentColor"
+                />
+            </svg>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Nachhaltig
+            </h3>
+
+            <p>
+                Mit Bedacht ausgewählt
+                und verpackt.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MIT LIEBE -->
+
+    <div class="benefit">
+
+        <div class="benefit-icon">
+
+            <!-- Herz -->
+
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+                <path
+                    d="
+                        M12 20.5
+                        L4.1 13
+                        C1.5 10.5 1.8 6.4 4.8 4.7
+                        C7.2 3.3 9.9 4.1 12 6.6
+                        C14.1 4.1 16.8 3.3 19.2 4.7
+                        C22.2 6.4 22.5 10.5 19.9 13
+                        Z
+                    "
+                    fill="currentColor"
+                />
+            </svg>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Mit Liebe
+            </h3>
+
+            <p>
+                Für deine eigene
+                kleine Pflanzenwelt.
+            </p>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+    </main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <!-- =================================================
+         OBERER FOOTER
+    ================================================== -->
+
+    <div class="footer-top">
+
+        <!-- LINKER BEREICH -->
+
+        <div class="footer-brand">
+
+            <img
+                src="logo.svg"
+                alt="Bloom Loop"
+                class="footer-logo"
+            >
+
+            <p>
+                Die Jahreszeiten<br>
+                für deinen Balkon.
+            </p>
+
+            <div class="socials">
+
+                <!-- Instagram -->
+                <a href="#" aria-label="Instagram">
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        />
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        />
+
+                        <circle
+                            cx="17.5"
+                            cy="6.5"
+                            r="1"
+                            fill="currentColor"
+                        />
+
+                    </svg>
+
+                </a>
+
+
+                <!-- Facebook -->
+                <a href="#" aria-label="Facebook">
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            fill="currentColor"
+                            d="M14 8h3V4h-3c-3.3 0-5 2-5 5v3H6v4h3v6h4v-6h3.2l.8-4H13V9c0-.7.3-1 1-1z"
+                        />
+                    </svg>
+
+                </a>
+
+
+                <!-- Pinterest -->
+                <a href="#" aria-label="Pinterest">
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            fill="currentColor"
+                            d="M12 3a9 9 0 0 0-3.3 17.4c-.1-1.5 0-3.3.4-4.7l1.2-5s-.3-.7-.3-1.7c0-1.6.9-2.8 2.1-2.8 1 0 1.5.7 1.5 1.6 0 1-.6 2.5-.9 3.9-.3 1.2.6 2.2 1.8 2.2 2.2 0 3.7-2.3 3.7-5.7 0-3-2.2-5.1-5.3-5.1-3.6 0-5.7 2.7-5.7 5.5 0 1.1.4 2.3 1 2.9.1.1.1.2.1.4l-.4 1.5c-.1.5-.4.6-.8.4-1.5-.7-2.4-2.8-2.4-4.5 0-3.7 2.7-7.1 7.8-7.1 4.1 0 7.3 2.9 7.3 6.7 0 4-2.5 7.2-6 7.2-1.2 0-2.4-.6-2.8-1.3l-.7 2.8c-.3 1.4-1.2 3.1-1.8 4.1.8.2 1.7.3 2.6.3a9 9 0 1 0 0-18z"
+                        />
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <div class="footer-column">
+
+            <h4>Navigation</h4>
+
+            <a href="#home">Home</a>
+            <a href="#angebote">Angebote</a>
+            <a href="#konto">Mein Konto</a>
+            <a href="#warenkorb">Warenkorb</a>
+
+        </div>
+
+
+        <!-- SERVICE -->
+
+        <div class="footer-column">
+
+            <h4>Service</h4>
+
+            <a href="#">FAQ</a>
+            <a href="#">Versand</a>
+            <a href="#">Zahlung</a>
+            <a href="#">Widerruf</a>
+
+        </div>
+
+
+        <!-- KONTAKT -->
+
+        <div class="footer-column contact">
+
+            <h4>Kontakt</h4>
+
+            <p>Bloom Loop GmbH</p>
+            <p>hello@bloomloop.de</p>
+            <p>+49 30 12345678</p>
+            <p>Berlin, Deutschland</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         UNTERER FOOTER
+    ================================================== -->
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Bloom Loop
+        </span>
+
+        <div>
+
+            <a href="#">
+                Impressum
+            </a>
+
+            <a href="#">
+                Datenschutz
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- DEKORATIVE BLÜTE -->
+
+    <div class="footer-flower"></div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
